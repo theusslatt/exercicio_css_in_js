@@ -16,15 +16,11 @@ const EstiloGlobal = createGlobalStyle`
 export default EstiloGlobal
 
 export const Container = styled.div`
-  .container {
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
-  }
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
 
   @media (max-width: 1024px) {
-    .container {
-      max-width: 80%;
-    }
+    max-width: 80%;
   }
 `
